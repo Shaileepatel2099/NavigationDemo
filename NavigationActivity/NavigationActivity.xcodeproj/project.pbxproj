@@ -15,6 +15,8 @@
 		41F4C4A129CB5AF80013F3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F4C49F29CB5AF80013F3E1 /* LaunchScreen.storyboard */; };
 		41F4C4AC29CB5AF80013F3E1 /* NavigationActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4C4AB29CB5AF80013F3E1 /* NavigationActivityTests.swift */; };
 		41F4C4B729CB5AF90013F3E1 /* NavigationActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4C4B629CB5AF90013F3E1 /* NavigationActivityUITests.swift */; };
+		41F4C4C829CB6B3E0013F3E1 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4C4C729CB6B3E0013F3E1 /* FormViewController.swift */; };
+		41F4C4CD29CB6CD70013F3E1 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4C4CC29CB6CD70013F3E1 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		41F4C4B229CB5AF80013F3E1 /* NavigationActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F4C4B629CB5AF90013F3E1 /* NavigationActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationActivityUITests.swift; sourceTree = "<group>"; };
 		41F4C4B829CB5AF90013F3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F4C4C729CB6B3E0013F3E1 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		41F4C4CC29CB6CD70013F3E1 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				41F4C49429CB5AF40013F3E1 /* AppDelegate.swift */,
 				41F4C49629CB5AF40013F3E1 /* SceneDelegate.swift */,
 				41F4C49829CB5AF40013F3E1 /* ViewController.swift */,
+				41F4C4CC29CB6CD70013F3E1 /* InfoViewController.swift */,
+				41F4C4C729CB6B3E0013F3E1 /* FormViewController.swift */,
 				41F4C49A29CB5AF40013F3E1 /* Main.storyboard */,
 				41F4C49D29CB5AF80013F3E1 /* Assets.xcassets */,
 				41F4C49F29CB5AF80013F3E1 /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				41F4C49929CB5AF40013F3E1 /* ViewController.swift in Sources */,
 				41F4C49529CB5AF40013F3E1 /* AppDelegate.swift in Sources */,
+				41F4C4C829CB6B3E0013F3E1 /* FormViewController.swift in Sources */,
 				41F4C49729CB5AF40013F3E1 /* SceneDelegate.swift in Sources */,
+				41F4C4CD29CB6CD70013F3E1 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
