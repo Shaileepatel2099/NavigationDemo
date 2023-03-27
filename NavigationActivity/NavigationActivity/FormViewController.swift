@@ -18,6 +18,7 @@ class FormViewController: UIViewController {
     @IBOutlet var city: UITextField!
     @IBOutlet var postalcode:UITextField!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +26,7 @@ class FormViewController: UIViewController {
     }
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "toInfo"){
         let VC = segue.destination as! InfoViewController
         VC.fname = firstname.text!
         VC.lname = lastname.text!
@@ -36,4 +38,5 @@ class FormViewController: UIViewController {
         
     }
 
+}
 }
