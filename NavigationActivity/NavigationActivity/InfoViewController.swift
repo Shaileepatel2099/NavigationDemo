@@ -12,13 +12,23 @@ class InfoViewController: UIViewController {
     @IBOutlet var firstname: UILabel!
     @IBOutlet var lastname: UILabel!
     @IBOutlet var email: UILabel!
-    var fname = "", lname="", em=""
+    @IBOutlet var address: UILabel!
+    @IBOutlet var country: UILabel!
+    @IBOutlet var city: UILabel!
+    @IBOutlet var postalcode: UILabel!
+    
+    var fname = "", lname="", em="" , add="", cntr="", cty="", poc=""
     override func viewDidLoad() {
         
         super.viewDidLoad()
         firstname.text = "First Name:" + fname
         lastname.text = "Last Name:" + lname
         email.text = "Email:" + em
+        address.text = "Address:" + add
+        country.text = "Country:" + cntr
+        city.text = "City:" + cty
+        postalcode.text = "Postal Code:" + poc
+        
 
         // Do any additional setup after loading the view.
     }
